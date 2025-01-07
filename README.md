@@ -9,3 +9,7 @@
 
 ## Задание 3. Открытие депозитов онлайн
 ### [ADR.](./Exc3/adr_v1.docx)
+
+## Задание 4. Передача ставок в кол-центр
+### [ADR.](./Exc4/adr_v1.docx)
+### [RoadMap.](./Exc4/RoadMap_bank_Standart_v1.drawio)
