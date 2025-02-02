@@ -1,0 +1,37 @@
+@startuml
+!include C4.puml
+!include C4_Context.puml
+!include C4_Container.puml
+!include C4_Component.puml
+
+title Диаграмма контейнеров в модели C4
+
+top to bottom direction
+
+Person_Ext(client, "Клиент", "Клиент")
+
+Container_Boundary(bankStandard, "Банк «Стандарт»") {
+  Person(empCallCenter, "Сотрудник кол-центра")
+  Container(site, "Интернет-банк / сайт", "React", "Handles client interactions")
+  Container(abs, "АБС", "Delphi", "back-end")
+  Container(smsService, "SMS-сервис")
+  Container(callCenter, "Кол-центр")
+  ContainerDb(database, "База данных", "Oracle", "База данных АБС")
+  ContainerDb(fileStorage, "Файловый сервер", "S3", "Файловый сервер для обновления информации по ставкам")
+}
+
+Container_Ext(callCenterExt, "Партнёрский кол-центр")
+Person_Ext(empCallCenterExt, "Сотрудник кол-центра")
+
+Rel(client, site, "")
+Rel(site, abs, "")
+Rel_L(abs, smsService, "")
+Rel(abs, database, "")
+Rel_R(abs, fileStorage, "интеграция ставок sftp")
+Rel_U(callCenter, fileStorage, "интеграция ставок sftp")
+Rel_U(empCallCenter, callCenter, "витрина актуальных ставок")
+Rel_U(callCenterExt, fileStorage, "интеграция ставок sftp")
+Rel_U(empCallCenterExt, callCenterExt, "витрина актуальных ставок")
+
+SHOW_FLOATING_LEGEND()
+@enduml

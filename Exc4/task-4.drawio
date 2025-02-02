@@ -1,0 +1,52 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4">
+  <diagram name="Страница — 1" id="Ar-4BmvIHm880YzHJiRH">
+    <mxGraphModel dx="1194" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_i_yrOXmZ4GHIyOil7mf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_i_yrOXmZ4GHIyOil7mf-1" target="_i_yrOXmZ4GHIyOil7mf-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_i_yrOXmZ4GHIyOil7mf-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Клиент" style="shape=actor;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="130" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="_i_yrOXmZ4GHIyOil7mf-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_i_yrOXmZ4GHIyOil7mf-10" target="_i_yrOXmZ4GHIyOil7mf-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_i_yrOXmZ4GHIyOil7mf-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_i_yrOXmZ4GHIyOil7mf-10" target="_i_yrOXmZ4GHIyOil7mf-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_i_yrOXmZ4GHIyOil7mf-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Интернет-банк / сайт&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="315" y="65" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_i_yrOXmZ4GHIyOil7mf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="_i_yrOXmZ4GHIyOil7mf-12" target="_i_yrOXmZ4GHIyOil7mf-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cmoPVmEW4OjVcbynTD_-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_i_yrOXmZ4GHIyOil7mf-12" target="5cmoPVmEW4OjVcbynTD_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_i_yrOXmZ4GHIyOil7mf-12" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;АБС&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="313" y="310" width="225" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_i_yrOXmZ4GHIyOil7mf-14" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Кол-центр&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="62.5" width="240" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="5cmoPVmEW4OjVcbynTD_-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Партнёрский&lt;br&gt;кол-центр&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="540" width="240" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="5cmoPVmEW4OjVcbynTD_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5cmoPVmEW4OjVcbynTD_-3" target="_i_yrOXmZ4GHIyOil7mf-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cmoPVmEW4OjVcbynTD_-3" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Сотрудник&lt;/div&gt;Кол-центра" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="40" width="130" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="5cmoPVmEW4OjVcbynTD_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5cmoPVmEW4OjVcbynTD_-5" target="5cmoPVmEW4OjVcbynTD_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cmoPVmEW4OjVcbynTD_-5" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Сотрудник&lt;/div&gt;Кол-центра" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="517.5" width="130" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,26 @@
+@startuml
+!include C4.puml
+!include C4_Context.puml
+!include C4_Container.puml
+!include C4_Component.puml
+
+title Диаграмма контейнеров в модели C4
+
+left to right direction
+
+Person_Ext(client, "Клиент", "Клиент")
+
+Container_Boundary(bankStandard, "Банк «Стандарт»") {
+  Container(site, "Интернет-банк / сайт", "React", "Handles client interactions")
+  Container(abs, "АБС", "Delphi", "back-end")
+  Container(smsService, "SMS-сервис")
+  ContainerDb(database, "База данных", "Oracle", "База данных АБС")
+}
+
+Rel(client, site, "")
+Rel(site, abs, "")
+Rel_L(abs, smsService, "")
+Rel(abs, database, "")
+
+SHOW_FLOATING_LEGEND()
+@enduml
